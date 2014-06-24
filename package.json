@@ -1,0 +1,22 @@
+{
+  "name": "ccdict",
+  "version": "0.0.0",
+  "description": "ccdict ======",
+  "main": "lib/main.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/loveencounterflow/ccdict.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/loveencounterflow/ccdict/issues"
+  },
+  "homepage": "https://github.com/loveencounterflow/ccdict",
+  "dependencies": {
+    "coffee-script": "^1.7.1"
+  }
+}
