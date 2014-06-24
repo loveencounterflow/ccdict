@@ -1,14 +1,12 @@
 
 ############################################################################################################
-njs_util                  = require 'util'
+# njs_util                  = require 'util'
 # njs_path                  = require 'path'
 njs_fs                    = require 'fs'
 #...........................................................................................................
-BAP                       = require 'coffeenode-bitsnpieces'
-TYPES                     = require 'coffeenode-types'
 TRM                       = require 'coffeenode-trm'
 rpr                       = TRM.rpr.bind TRM
-badge                     = 'scratch'
+badge                     = 'ccdict'
 log                       = TRM.get_logger 'plain',     badge
 info                      = TRM.get_logger 'info',      badge
 whisper                   = TRM.get_logger 'whisper',   badge
@@ -19,12 +17,6 @@ help                      = TRM.get_logger 'help',      badge
 urge                      = TRM.get_logger 'urge',      badge
 echo                      = TRM.echo.bind TRM
 rainbow                   = TRM.rainbow.bind TRM
-suspend                   = require 'coffeenode-suspend'
-step                      = suspend.step
-after                     = suspend.after
-eventually                = suspend.eventually
-immediately               = suspend.immediately
-every                     = suspend.every
 TEXT                      = require 'coffeenode-text'
 
 #-----------------------------------------------------------------------------------------------------------

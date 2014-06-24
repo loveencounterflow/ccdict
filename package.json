@@ -17,6 +17,8 @@
   },
   "homepage": "https://github.com/loveencounterflow/ccdict",
   "dependencies": {
-    "coffee-script": "^1.7.1"
+    "coffee-script": "^1.7.1",
+    "coffeenode-text": "^0.1.5",
+    "coffeenode-trm": "^0.1.17"
   }
 }
